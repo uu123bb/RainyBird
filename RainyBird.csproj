@@ -26,6 +26,9 @@
         <None Update="icon.png">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
+        <None Update="SettingPages\ExampleSettingsPageBase.xaml">
+          <Generator>MSBuild:Compile</Generator>
+        </None>
     </ItemGroup>
 
 </Project>
